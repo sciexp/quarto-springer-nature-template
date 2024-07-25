@@ -1,3 +1,4 @@
-_extensions/nature/csl/* linguist-vendored
-_extensions/nature/*.bst linguist-vendored
-_extensions/nature/sn-jnl.cls linguist-vendored
+_extensions/nature/csl/* linguist-vendored=true
+_extensions/nature/*.bst linguist-vendored=true
+_extensions/nature/sn-jnl.cls linguist-vendored=true
+Makefile linguist-detectable=false
