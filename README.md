@@ -6,7 +6,7 @@
 To create a new article using this format:
 
 ```bash
-quarto use template christopherkenny/nature
+quarto use template sciexp/quarto-springer-nature-template
 ```
 
 This will create a new directory with an example document that uses this format.
@@ -16,7 +16,7 @@ This will create a new directory with an example document that uses this format.
 To add this format to an existing document:
 
 ```bash
-quarto add christopherkenny/nature
+quarto add sciexp/quarto-springer-nature-template
 ```
 
 Then, add the format to your document options:
@@ -65,7 +65,7 @@ However it has the disadvantage that the citations will not be consistent with
 html and docx outputs. To achieve this, set
 
 ```yaml
-csl: _extensions/christopherkenny/nature/csl/springer-basic-author-date.csl
+csl: _extensions/sciexp/nature/csl/springer-basic-author-date.csl
 ```
 
 to a path to a CSL file. Several are vendered in
@@ -88,12 +88,12 @@ Note that this template does not contribute a `html` or `docx` format itself.
   html:
     code-fold: true
     html-math-method: katex
-csl: _extensions/christopherkenny/nature/csl/springer-basic-author-date.csl
+csl: _extensions/sciexp/nature/csl/springer-basic-author-date.csl
 ```
 
 ```yaml
   docx: default
-csl: _extensions/christopherkenny/nature/csl/springer-basic-author-date.csl
+csl: _extensions/sciexp/nature/csl/springer-basic-author-date.csl
 ```
 
 [^1]: The vendored Citation Style Language (CSL) files are copyrighted by the [Citation Style Language project](https://citationstyles.org/). These files have not been modified and are redistributed as licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)).
