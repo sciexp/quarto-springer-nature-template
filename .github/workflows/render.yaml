@@ -4,6 +4,7 @@ on:
       - main
   pull_request:
     types: [opened, synchronize, labeled, reopened]
+  workflow_dispatch: {}
 
 name: Render
 
