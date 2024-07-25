@@ -21,10 +21,10 @@ format:
 #
 # If attempting to render this extension template in an end-user project,
 # where you have executed a command like
-# $ quarto add christopherkenny/nature
+# $ quarto add sciexp/quarto-springer-nature-template
 # you will need to modify the csl path to point to the correct location, e.g.
-# csl: _extensions/christopherkenny/nature/csl/springer-basic-author-date.csl
-# where `christopherkenny` will be used as the namespace for the extension.
+# csl: _extensions/sciexp/quarto-springer-nature-template/csl/springer-basic-author-date.csl
+# where `sciexp` will be used as the namespace for the extension.
 # see: https://quarto.org/docs/extensions/distributing.html#github-distribution
 csl: _extensions/nature/csl/springer-basic-brackets-no-et-al.csl
 author:
